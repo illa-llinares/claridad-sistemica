@@ -2,7 +2,7 @@
 
 .portrait{margin:0;align-self:center}.portrait img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}.portrait .portrait-caption{padding-top:15px;border:0;color:var(--muted)}.portrait .portrait-caption>span:first-child{font-size:1.4rem}
 
-.hero-place{font:400 clamp(1.6rem,2.2vw,2.1rem)/1.25 var(--serif);color:#52675a;margin-top:18px;max-width:480px}.diagnosis .section-heading h2{max-width:850px;margin-inline:auto}.pain-grid h3{font-weight:600}
+.hero-place{font:400 clamp(1.6rem,2.2vw,2.1rem)/1.25 var(--serif);color:var(--navy);margin-top:18px;max-width:480px}.diagnosis .section-heading h2{max-width:850px;margin-inline:auto}.pain-grid h3{font-weight:600}
 
 .hero{display:block;padding-block:85px 70px}.hero-copy{max-width:780px;margin-inline:auto;text-align:center}.hero-description{max-width:630px;margin-inline:auto}.hero-place{max-width:none}.about .portrait{margin-top:38px}.about .signature{display:none}.about{align-items:center}.about .portrait-caption>span:first-child{font-size:1.4rem}.pricing-grid{grid-template-columns:1fr;max-width:480px}.price-card h3{font-size:2.25rem}.closing .centered>p:not(.eyebrow){max-width:670px;margin-inline:auto}.faq h2{word-spacing:.04em}@media(max-width:720px){.hero{padding-block:55px 45px}.hero .eyebrow{max-width:none}.hero h1{font-size:clamp(3.2rem,11vw,4.8rem)}.about .portrait{max-width:450px;margin-inline:auto}.about{gap:40px}.pricing-grid{max-width:430px}}
 
