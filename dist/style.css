@@ -50,3 +50,5 @@
 .legal-content h3{font-size:1.05rem;font-weight:600;margin:26px 0 14px}.legal-content ul{padding-left:24px;margin:0 0 24px}.legal-content li{margin-bottom:10px;line-height:1.8}
 
 .footer-legal-links{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px 20px;margin-left:auto}.footer-legal-links .footer-legal{white-space:nowrap}@media(max-width:720px){.footer .footer-legal-links{order:4;flex-basis:100%;justify-content:flex-end;margin-left:auto;gap:8px 18px}}
+
+.contact-privacy{font-size:.75rem;line-height:1.65;color:var(--muted);margin-top:20px;text-align:left;max-width:670px;margin-inline:auto}.contact-privacy p{margin:0 0 10px!important;color:var(--muted)}.contact-privacy a{text-decoration:underline;text-underline-offset:3px}.contact-privacy strong{font-weight:600}.closing .contact-privacy{margin-top:26px}
