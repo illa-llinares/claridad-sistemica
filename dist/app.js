@@ -65,12 +65,13 @@ const testimonialRegion=document.querySelector('.testimonial-carousel');
 const testimonialMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 let testimonialVisible=false;
 let testimonialHovered=false;
+let testimonialKeyboardNavigation=false;
 let testimonialInteracting=false;
 let testimonialAutoTimer;
 let testimonialInteractionTimer;
 function scheduleTestimonialAdvance(){
  clearTimeout(testimonialAutoTimer);
- const running=!testimonialMotion.matches&&!testimonialHovered&&!testimonialInteracting&&testimonialVisible&&!document.hidden&&!testimonialRegion.contains(document.activeElement);
+ const running=!testimonialMotion.matches&&!testimonialHovered&&!testimonialInteracting&&testimonialVisible&&!document.hidden&&!(testimonialKeyboardNavigation&&testimonialRegion.contains(document.activeElement));
  document.querySelector('#testimonial-status').setAttribute('aria-live',running?'off':'polite');
  testimonialRegion.classList.remove('is-playing');
  void testimonialRegion.offsetWidth;
@@ -83,8 +84,12 @@ function holdTestimonialAdvance(){
  testimonialInteracting=true;clearTimeout(testimonialInteractionTimer);scheduleTestimonialAdvance();
  testimonialInteractionTimer=setTimeout(()=>{testimonialInteracting=false;scheduleTestimonialAdvance();},12000);
 }
-testimonialRegion.addEventListener('mouseenter',()=>{testimonialHovered=true;scheduleTestimonialAdvance();});
-testimonialRegion.addEventListener('mouseleave',()=>{testimonialHovered=false;scheduleTestimonialAdvance();});
+// Touch browsers may retain hover and focus after a tap. Only mouse hover and
+// keyboard focus suspend autoplay beyond the short interaction pause.
+testimonialRegion.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse'){testimonialHovered=true;scheduleTestimonialAdvance();}});
+testimonialRegion.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'){testimonialHovered=false;scheduleTestimonialAdvance();}});
+document.addEventListener('keydown',event=>{if(event.key==='Tab'||testimonialRegion.contains(event.target)){testimonialKeyboardNavigation=true;scheduleTestimonialAdvance();}});
+document.addEventListener('pointerdown',event=>{testimonialKeyboardNavigation=false;if(event.pointerType!=='mouse')testimonialHovered=false;scheduleTestimonialAdvance();},{passive:true});
 testimonialRegion.addEventListener('focusin',scheduleTestimonialAdvance);
 testimonialRegion.addEventListener('focusout',()=>setTimeout(scheduleTestimonialAdvance,0));
 testimonialTrack.addEventListener('pointerdown',holdTestimonialAdvance,{passive:true});
