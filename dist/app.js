@@ -1,10 +1,114 @@
-const english={privacyContactNotice:"By booking a session or contacting me on WhatsApp, you accept the",privacyContactPurpose:" applicable to the processing of your data to handle your request.",privacyContactRightsLabel:"Rights:",privacyContactRights:"You may withdraw consent where applicable and exercise your rights of access, rectification, erasure, objection, restriction and portability at legal@illallinares.com.",privacyPolicy:"Privacy Policy",legalNotice:"Legal Notice",testimonialPrev:"Previous",testimonialNext:"Next",navSections:"Sections",navHome:"Home",navAbout:"About me",navProcess:"The Method",navTestimonials:"Testimonials",navSession:"The session",navFaq:"FAQs",navTop:"Back to top",navBook:"Book",emailContact:"Email",contactPrompt:"Have a question?",contactLink:"Message me on WhatsApp",brandHeaderByline:'with <span class="professional-name">Illa Llinares</span>',brandByline:"with Illa Llinares",brandName:"Systemic Clarity",aboutInsight:"You don\u2019t need to bring all the answers or analyse your whole life again. I help you distinguish what needs your attention from what you have learned to carry for others. With structure, sensitivity and without judgement, we make room for you to listen to yourself, loosen your grip on control and feel more at peace with yourself.",step4Title:"Clarity",step4:"You leave with a clear inner picture and an unobstructed direction. No extra tasks or endless processes.",taxNote:"VAT included",paymentNote:"Bizum in Spain or secure card payment for international clients.",faq8Q:"How do I pay for my session?",faq8A:"When you click to book, you will open my calendar to choose a date and time in your local time zone. Your time slot will be provisionally reserved. Within the next few hours, I will contact you personally by email with the payment options. Your session will be confirmed once payment has been received.",faq6Q:"How soon will I see results?",faq6A:"The intervention is immediate. We are not looking for endless analysis, but for shifts in clarity that begin to settle from the first session.",faq7Q:"Is this for my personal life or my professional life?",faq7A:"You can work on either a personal or a professional issue. In individual online Systemic Consulting sessions, we use Family Constellations as a tool to unblock recurring patterns and regain clarity. There is one system: the order you create in one area influences other areas of your life.",heroPlace:"You just need to take your place.",skip:'Skip to content',headerCta:'Book Your Session',heroEyebrow:"CLARITY TO LET GO · SPACE TO LIVE",headline:'You’re carrying<br><em>too much.</em>',heroDescription:"When everything depends on you, even pausing feels risky. Here is your space to untangle what you carry, gain perspective and take your place again.",heroCta:"Find your clarity",heroNote:'One session. One focus. A clear next step.',portraitRole:'Systemic Clarity Consultant',diagnosisEyebrow:'RECOGNISE THE PATTERN',diagnosisTitle:"You feel <em>stuck</em> and unable to move forward.",diagnosisIntro:"You’ve already been through many processes. You’ve spent hours analysing why you are the way you are. You know your wounds and your reasons. You have a map of your labyrinth, yet you keep walking in circles. Do you know why? Because you cannot rest while holding up everything and everyone around you.",pain1Title:"Your parents’ wellbeing:",pain1:"You try to protect them through your own sacrifice from what they left unaddressed.",pain2Title:"The stability of those around you:",pain2:"You take a place that isn’t yours to keep everything from falling apart, exhausting your own energy.",pain3Title:"Empty success:",pain3:"You meet other people’s expectations, dimming the light of your own brilliance.",switch1:'Is everything you’re carrying <em>yours to carry?</em>',switch2:'Clarity begins when each thing finds its place.',aboutEyebrow:'THE PERSON ON THE OTHER SIDE',aboutTitle:'A human perspective.<br>A rigorous foundation.',aboutLead:"I know what it feels like to believe that if you stop pushing, the world will stop.",aboutBody:"I am a woman who needed to lose herself in high efficiency to understand that wellbeing is, above all, an inner order. My education in Law and Business Administration is not my past: it is the foundation that allows me to ground the information from your system.",aboutEnd:"My management experience and my training in family constellations come together in one perspective: analytical enough to make sense of what is happening, and intuitive enough to recognise the relationships and pressures that may be influencing you without your awareness. Together, we bring into view what is difficult to see when you are caught up in it, watching over everything and feeling that you can never keep up.",credential1:"Analytical rigour. A systemic perspective. Space for you.",methodEyebrow:'THE METHOD',methodTitle:'Less circling. More perspective.',step1Title:"Identification",step1:"You choose the situation weighing on you most today. One concrete issue, without having to explain your whole life.",step2Title:"Observation",step2:'We look at the system: who holds which role, what expectations weigh on you and which responsibilities you are taking on.',step3Title:"Order",step3:"We reorder your network of relationships. We return the weight to those it belongs to and free up your space so you can take your place again.",testimonialsEyebrow:"TESTIMONIALS",testimonialsTitle:'A space for trust.',sessionsEyebrow:'YOUR SPACE FOR CLARITY',sessionsTitle:'One specific issue.<br>One focused session.',sessionsIntro:"A space to untangle what you need to observe today.",firstTitle:"Systemic Clarity Session",firstDescription:"A session to explore the origin of a pattern you have been repeating for years. We identify what keeps it in place and work with its underlying cause to unblock it, step out of the cycle and make room for a different way of living.",firstDuration:"90 minutes · Individual online session",firstIncludes:"Define the focus. Read the system.<br>Gain clarity.",firstCta:"Book your Session",sessionNote:"Sessions in Spanish, English or Catalan.",faqEyebrow:'BEFORE YOU TAKE THE STEP',faqTitle:"No added <br>uncertainty.",faq1Q:'Do I need to know exactly what is wrong?',faq1A:'No. You can bring a situation, a pending decision or the feeling of carrying too much. Defining the focus is part of the session.',faq2Q:'Is this therapy?',faq2A:"This is a consulting space to observe and untangle the dynamics shaping your situation. We work with relationships, roles and responsibilities to gain clarity. It is not clinical treatment and does not replace psychological or medical care.",faq3Q:'Do I have to commit to several sessions?',faq3A:"No: you decide what you want to work on and when. You can book one session for a specific issue, several sessions for different topics or, if you wish, explore the same issue more deeply over several sessions. The choice is always yours, at your own pace.",faq4Q:'Do I need experience with systemic work?',faq4A:"You don’t need to know any technique. We start from your reality and use clear language to explore roles, relationships and responsibilities. I’ll be with you throughout the session and guide you through every step.",faq5Q:'Which languages are available?',faq5A:"Spanish, English or Catalan. Choose the language in which you can best express your situation.",closingTitle:"Zero Friction.",closingDescription:"Your time is your most valuable resource. If it’s time to hand back what isn’t yours, let’s talk.",closingCta:"Schedule my Clarity Session",footerNote:'Clarity to let go. Space to live.'};
-Object.assign(english,{"heroPlace": "Free yourself from blocks, patterns and burdens.", "heroDescription": "When everything depends on you, even pausing feels risky. Here is your space to explore what holds you back, understand recurring patterns and release burdens that are not yours to carry. To gain perspective and take your place again.", "sessionsTitle": "One session to get unstuck.<br>Space to go deeper.", "sessionsIntro": "Choose a single session or a four-session package, depending on what you need right now.", "faq3A": "No: you decide what you want to work on and when. You can book one session for a specific issue or choose the four-session package to explore one theme more deeply, work through different topics over time or receive closer support. The choice is always yours, at your own pace.", "faq7A": "You can work on a personal or a professional issue: blocks, recurring patterns, relationships or burdens that feel as though they are not yours to carry. There is one system: what you explore and put in order in one area can open up new perspectives in other areas of your life.", "packTitle": "Ongoing support · 4 sessions", "packDescription": "For you if you are ready to explore a theme more deeply, make room for your process or benefit from regular sessions, even when you bring a different topic each time. Four meetings to explore blocks and recurring patterns with closer support, at your own pace.", "packOffer": "Christmas launch price", "packEquivalent": "€120 per session · €600 when booked separately", "packDuration": "4 sessions of 90 minutes · Individual online sessions", "packIncludes": "One theme or different topics.<br>A space for continuity, just for you.", "packCta": "Request the 4-session package", "packBooking": "Email me to request the package and arrange the four appointments. I will send you the payment options personally.", "faqApproachQ": "Which tools do you use in the sessions?", "faqApproachA": "My approach combines systemic coaching and energy work with family constellations. I choose the tool according to your needs and what emerges in each meeting; we do not follow a fixed script. Every session is unique. That is where I work my magic: listening, connecting and helping you see what holds you back from a different perspective."});
-Object.assign(english,{"packOffer": "Christmas launch · until 6 January 2027", "packFuture": "After the promotion: €540 (€135 per session).", "packTerms": "You have 12 months from the purchase date to use all four sessions."});
+const english={
+ "privacyContactNotice": "By booking a session or contacting me on WhatsApp, you accept the",
+ "privacyContactPurpose": " applicable to the processing of your data to handle your request.",
+ "privacyContactRightsLabel": "Rights:",
+ "privacyContactRights": "You may withdraw consent where applicable and exercise your rights of access, rectification, erasure, objection, restriction and portability at legal@illallinares.com.",
+ "privacyPolicy": "Privacy Policy",
+ "legalNotice": "Legal Notice",
+ "testimonialPrev": "Previous",
+ "testimonialNext": "Next",
+ "navSections": "Sections",
+ "navHome": "Home",
+ "navAbout": "About me",
+ "navProcess": "The Method",
+ "navTestimonials": "Testimonials",
+ "navSession": "The session",
+ "navFaq": "FAQs",
+ "navTop": "Back to top",
+ "navBook": "Book",
+ "emailContact": "Email",
+ "contactPrompt": "Have a question?",
+ "contactLink": "Message me on WhatsApp",
+ "brandHeaderByline": "with <span class=\"professional-name\">Illa Llinares</span>",
+ "brandByline": "with Illa Llinares",
+ "brandName": "Systemic Clarity",
+ "aboutInsight": "You don’t need to bring all the answers or analyse your whole life again. I help you distinguish what needs your attention from what you have learned to carry for others. With structure, sensitivity and without judgement, we make room for you to listen to yourself, loosen your grip on control and feel more at peace with yourself.",
+ "step4Title": "Clarity",
+ "step4": "You leave with a clear inner picture and an unobstructed direction. No extra tasks or endless processes.",
+ "taxNote": "VAT included",
+ "paymentNote": "Online booking and payment through an external link will be available soon.",
+ "faq8Q": "How do I pay for my session?",
+ "faq8A": "Online booking will be available soon. Once it is active, you will be able to book and pay for your chosen service through an external platform. You will find the available payment options there. If you have any questions before booking, you can message me on WhatsApp.",
+ "faq6Q": "How soon will I see results?",
+ "faq6A": "The intervention is immediate. We are not looking for endless analysis, but for shifts in clarity that begin to settle from the first session.",
+ "faq7Q": "Is this for my personal life or my professional life?",
+ "faq7A": "You can work on a personal or a professional issue: blocks, recurring patterns, relationships or burdens that feel as though they are not yours to carry. There is one system: what you explore and put in order in one area can open up new perspectives in other areas of your life.",
+ "heroPlace": "Free yourself from blocks, patterns and burdens.",
+ "skip": "Skip to content",
+ "headerCta": "Book Your Session",
+ "heroEyebrow": "CLARITY TO LET GO · SPACE TO LIVE",
+ "headline": "You’re carrying<br><em>too much.</em>",
+ "heroDescription": "When everything depends on you, even pausing feels risky. Here is your space to explore what holds you back, understand recurring patterns and release burdens that are not yours to carry. To gain perspective and take your place again.",
+ "heroCta": "Find your clarity",
+ "heroNote": "One session. One focus. A clear next step.",
+ "portraitRole": "Systemic Clarity Consultant",
+ "diagnosisEyebrow": "RECOGNISE THE PATTERN",
+ "diagnosisTitle": "You feel <em>stuck</em> and unable to move forward.",
+ "diagnosisIntro": "You’ve already been through many processes. You’ve spent hours analysing why you are the way you are. You know your wounds and your reasons. You have a map of your labyrinth, yet you keep walking in circles. Do you know why? Because you cannot rest while holding up everything and everyone around you.",
+ "pain1Title": "Your parents’ wellbeing:",
+ "pain1": "You try to protect them through your own sacrifice from what they left unaddressed.",
+ "pain2Title": "The stability of those around you:",
+ "pain2": "You take a place that isn’t yours to keep everything from falling apart, exhausting your own energy.",
+ "pain3Title": "Empty success:",
+ "pain3": "You meet other people’s expectations, dimming the light of your own brilliance.",
+ "switch1": "Is everything you’re carrying <em>yours to carry?</em>",
+ "switch2": "Clarity begins when each thing finds its place.",
+ "aboutEyebrow": "THE PERSON ON THE OTHER SIDE",
+ "aboutTitle": "A human perspective.<br>A rigorous foundation.",
+ "aboutLead": "I know what it feels like to believe that if you stop pushing, the world will stop.",
+ "aboutBody": "I am a woman who needed to lose herself in high efficiency to understand that wellbeing is, above all, an inner order. My education in Law and Business Administration is not my past: it is the foundation that allows me to ground the information from your system.",
+ "aboutEnd": "My management experience and my training in family constellations come together in one perspective: analytical enough to make sense of what is happening, and intuitive enough to recognise the relationships and pressures that may be influencing you without your awareness. Together, we bring into view what is difficult to see when you are caught up in it, watching over everything and feeling that you can never keep up.",
+ "credential1": "Analytical rigour. A systemic perspective. Space for you.",
+ "methodEyebrow": "THE METHOD",
+ "methodTitle": "Less circling. More perspective.",
+ "step1Title": "Identification",
+ "step1": "You choose the situation weighing on you most today. One concrete issue, without having to explain your whole life.",
+ "step2Title": "Observation",
+ "step2": "We look at the system: who holds which role, what expectations weigh on you and which responsibilities you are taking on.",
+ "step3Title": "Order",
+ "step3": "We reorder your network of relationships. We return the weight to those it belongs to and free up your space so you can take your place again.",
+ "testimonialsEyebrow": "TESTIMONIALS",
+ "testimonialsTitle": "A space for trust.",
+ "sessionsEyebrow": "YOUR SPACE FOR CLARITY",
+ "sessionsTitle": "One session to get unstuck.<br>Space to go deeper.",
+ "sessionsIntro": "Choose a single session or a four-session process, depending on what you need right now.",
+ "firstTitle": "Systemic Clarity Session",
+ "firstDescription": "A session to explore the origin of a pattern you have been repeating for years. We identify what keeps it in place and work with its underlying cause to unblock it, step out of the cycle and make room for a different way of living.",
+ "firstDuration": "90 minutes · Individual online session",
+ "firstIncludes": "Define the focus. Read the system.<br>Gain clarity.",
+ "firstCta": "Book your Session",
+ "sessionNote": "Sessions in Spanish, English or Catalan.",
+ "faqEyebrow": "BEFORE YOU TAKE THE STEP",
+ "faqTitle": "No added <br>uncertainty.",
+ "faq1Q": "Do I need to know exactly what is wrong?",
+ "faq1A": "No. You can bring a situation, a pending decision or the feeling of carrying too much. Defining the focus is part of the session.",
+ "faq2Q": "Is this therapy?",
+ "faq2A": "This is a consulting space to observe and untangle the dynamics shaping your situation. We work with relationships, roles and responsibilities to gain clarity. It is not clinical treatment and does not replace psychological or medical care.",
+ "faq3Q": "Do I have to commit to several sessions?",
+ "faq3A": "No: you decide what you want to work on and when. You can book one session for a specific issue or choose the four-session package to explore one theme more deeply, work through different topics over time or receive closer support. The choice is always yours, at your own pace.",
+ "faq4Q": "Do I need experience with systemic work?",
+ "faq4A": "You don’t need to know any technique. We start from your reality and use clear language to explore roles, relationships and responsibilities. I’ll be with you throughout the session and guide you through every step.",
+ "faq5Q": "Which languages are available?",
+ "faq5A": "Spanish, English or Catalan. Choose the language in which you can best express your situation.",
+ "closingTitle": "Zero Friction.",
+ "closingDescription": "Your time is your most valuable resource. If it’s time to hand back what isn’t yours, let’s talk.",
+ "closingCta": "Schedule my Clarity Session",
+ "footerNote": "Clarity to let go. Space to live.",
+ "packTitle": "Deeper Clarity · 4 sessions",
+ "packDescription": "Space to explore what matters to you and transform recurring patterns. Four sessions to work on one theme or different topics, with continuity and at your own pace.",
+ "packOffer": "Christmas special",
+ "packDuration": "4 sessions of 90 minutes · Individual online sessions",
+ "packIncludes": "One theme or different topics.<br>A space for continuity, just for you.",
+ "packCta": "Book Deeper Clarity",
+ "faqApproachQ": "Which tools do you use in the sessions?",
+ "faqApproachA": "My approach combines systemic coaching and energy work with family constellations. I choose the tool according to your needs and what emerges in each meeting; we do not follow a fixed script. Every session is unique. That is where we make magic: listening, connecting and helping you see what holds you back from a different perspective.",
+ "packFuture": "Regular price: <s>€540</s>",
+ "packTerms": "Offer until 6 January 2027. Use your four sessions within 12 months of purchase."
+};
 const nodes=[...document.querySelectorAll('[data-t]')];const spanish=Object.fromEntries(nodes.map(n=>[n.dataset.t,n.innerHTML]));let language='es';
 // Set these to the owner's verified booking links when provided.
-const bookingLinks={first:'https://calendar.app.google/Pvto4jU3sd32JiCr5'};
-function setLanguage(lang){language=lang;document.querySelector('[data-pack-contact]').href='mailto:connect@illallinares.com?subject='+encodeURIComponent(lang==='en'?'4-session package':'Pack de 4 sesiones');document.querySelectorAll("[data-privacy-link]").forEach(a=>a.href=lang==='en'?'privacy-policy.html':'politica-privacidad.html');document.querySelectorAll('[data-legal-link]').forEach(a=>a.href=lang==='en'?'legal-notice.html':'aviso-legal.html');document.documentElement.lang=lang;document.title=(lang==='en'?'Systemic Consulting and Online Constellations':'Consultoría Sistémica y Constelaciones Online')+' | Illa Llinares';document.querySelector('header .brand').setAttribute('aria-label',(lang==='en'?'Systemic Clarity with Illa Llinares':'Claridad Sistémica con Illa Llinares'));nodes.forEach(n=>n.innerHTML=(lang==='en'?english:spanish)[n.dataset.t]);document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelector('.portrait img').alt=lang==='en'?'Portrait of Illa Llinares':'Retrato de Illa Llinares';document.querySelector('.booking-notice').hidden=true;document.querySelector('meta[name="description"]').content=lang==='en'?'Systemic Consulting with Illa Llinares. Individual online systemic coaching and family constellations to explore blocks, recurring patterns and burdens. Single sessions or a 4-session package.':'Coaching sistémico y constelaciones familiares online con Illa Llinares. Libérate de bloqueos, patrones que se repiten y cargas. Sesión individual o pack de 4.';updatePackOffer();try{localStorage.setItem('systemic-clarity-language',lang)}catch{}}
+const bookingLinks={first:'',pack:''}; // Add the owner's verified HTTPS booking/payment URL for each service here.
+function setLanguage(lang){language=lang;document.querySelectorAll("[data-privacy-link]").forEach(a=>a.href=lang==='en'?'privacy-policy.html':'politica-privacidad.html');document.querySelectorAll('[data-legal-link]').forEach(a=>a.href=lang==='en'?'legal-notice.html':'aviso-legal.html');document.documentElement.lang=lang;document.title=(lang==='en'?'Systemic Consulting and Online Constellations':'Consultoría Sistémica y Constelaciones Online')+' | Illa Llinares';document.querySelector('header .brand').setAttribute('aria-label',(lang==='en'?'Systemic Clarity with Illa Llinares':'Claridad Sistémica con Illa Llinares'));nodes.forEach(n=>n.innerHTML=(lang==='en'?english:spanish)[n.dataset.t]);document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelector('.portrait img').alt=lang==='en'?'Portrait of Illa Llinares':'Retrato de Illa Llinares';document.querySelector('.booking-notice').hidden=true;document.querySelector('meta[name="description"]').content=lang==='en'?'Systemic Consulting with Illa Llinares. Individual online systemic coaching and family constellations to explore blocks, recurring patterns and burdens. Single sessions or a 4-session package.':'Coaching sistémico y constelaciones familiares online con Illa Llinares. Libérate de bloqueos, patrones que se repiten y cargas. Sesión individual o pack de 4.';updatePackOffer();configureBookingButtons();try{localStorage.setItem('systemic-clarity-language',lang)}catch{}}
 // The Christmas offer includes 6 January in the site's Europe/Madrid time zone.
 function updatePackOffer(){
  const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
@@ -13,14 +117,23 @@ function updatePackOffer(){
  document.querySelector('.pack-price').textContent=launch?'480':'540';
  document.querySelector('[data-t="packFuture"]').hidden=!launch;
  if(!launch){
-  document.querySelector('[data-t="packOffer"]').textContent=language==='en'?'Four-session package':'Pack de cuatro sesiones';
-  document.querySelector('[data-t="packEquivalent"]').textContent=language==='en'?'€135 per session · €600 when booked separately':'135 € por sesión · 600 € al reservarlas por separado';
+  document.querySelector('[data-t="packOffer"]').textContent=language==='en'?'Deeper Clarity':'Claridad en Profundidad';
+
  }
 }
 updatePackOffer();
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)updatePackOffer()});
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
-document.querySelectorAll('.booking').forEach(b=>b.addEventListener('click',()=>{const url=bookingLinks[b.dataset.session];if(url){window.location.assign(url);return}const notice=document.querySelector('.booking-notice');notice.textContent=language==='en'?'The booking calendar is not connected yet. No booking or payment has been made.':'La agenda de reservas todavía no está conectada. No se ha realizado ninguna reserva ni ningún pago.';notice.hidden=false;notice.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});}));
+const bookingLabels={firstCta:{es:'Reserva tu Sesión',en:'Book your Session'},packCta:{es:'Reserva Claridad en Profundidad',en:'Book Deeper Clarity'},closingCta:{es:'Agendar mi Sesión de Claridad',en:'Schedule my Clarity Session'}};
+function configureBookingButtons(){
+ document.querySelectorAll('.booking').forEach(button=>{
+  const ready=Boolean(bookingLinks[button.dataset.session]);
+  button.disabled=!ready;
+  button.textContent=ready?bookingLabels[button.dataset.t][language]:(language==='en'?'Online booking coming soon':'Reserva online próximamente');
+ });
+}
+configureBookingButtons();
+document.querySelectorAll('.booking').forEach(b=>b.addEventListener('click',event=>{event.preventDefault();const url=bookingLinks[b.dataset.session];if(url){window.location.assign(url);return}const notice=document.querySelector('.booking-notice');notice.textContent=language==='en'?'The booking calendar is not connected yet. No booking or payment has been made.':'La agenda de reservas todavía no está conectada. No se ha realizado ninguna reserva ni ningún pago.';notice.hidden=false;notice.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});}));
 const requestedLanguage=new URLSearchParams(location.search).get('lang');if(requestedLanguage==='en'||requestedLanguage==='es'){setLanguage(requestedLanguage)}else{try{if(localStorage.getItem('systemic-clarity-language')==='en')setLanguage('en')}catch{}}
 document.querySelector('#year').textContent=new Date().getFullYear();
 
