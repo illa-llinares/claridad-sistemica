@@ -86,3 +86,13 @@
  .footer .footer-legal-links{gap:4px 20px;align-items:center}
  .footer .footer-legal{font-size:.75rem}
 }
+
+/* Extend the existing session layout for the four-session package. */
+.pricing-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1000px;align-items:start}
+.price-card{min-width:0}.price-card .service-description{font-size:1rem}
+.price-card.pack{border-color:#a4afa6}.launch-label{margin-top:24px;font-weight:600;color:#3d5948;font-size:.9375rem}.pack .price{margin-top:4px}
+.pack-equivalent,.pack-booking{font-size:.9375rem;color:var(--muted);line-height:1.7;margin-top:12px}
+.pack-booking{margin-top:18px}
+@media(max-width:820px){.pricing-grid{grid-template-columns:1fr;max-width:480px}}
+
+.pack .price .pack-price{font-size:inherit;margin-left:0}.pack-future,.pack-terms{font-size:.9375rem;line-height:1.7;color:var(--muted);margin-top:12px}.pack-terms{color:var(--navy)}
