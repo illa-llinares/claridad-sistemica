@@ -94,16 +94,17 @@ const english={
  "closingDescription": "Your time is your most valuable resource. If it’s time to hand back what isn’t yours, let’s talk.",
  "closingCta": "Schedule my Clarity Session",
  "footerNote": "Clarity to let go. Space to live.",
- "packTitle": "Deeper Clarity · 4 sessions",
+ "packTitle": "Deepening Sessions",
  "packDescription": "Space to explore what matters to you and transform recurring patterns. Four sessions to work on one theme or different topics, with continuity and at your own pace.",
- "packOffer": "Christmas special",
+ "packOffer": "Holiday special",
  "packDuration": "4 sessions of 90 minutes · Individual online sessions",
  "packIncludes": "One theme or different topics.<br>A space for continuity, just for you.",
- "packCta": "Book Deeper Clarity",
+ "packCta": "Book Deepening Sessions",
  "faqApproachQ": "Which tools do you use in the sessions?",
  "faqApproachA": "My approach combines systemic coaching and energy work with family constellations. I choose the tool according to your needs and what emerges in each meeting; we do not follow a fixed script. Every session is unique. That is where we make magic: listening, connecting and helping you see what holds you back from a different perspective.",
+ "packPromo": "Promotion until 6 January 2027",
  "packFuture": "Regular price: <s>€540</s>",
- "packTerms": "Offer until 6 January 2027. Use your four sessions within 12 months of purchase."
+ "packTerms": "Use your four sessions within 12 months of purchase."
 };
 const nodes=[...document.querySelectorAll('[data-t]')];const spanish=Object.fromEntries(nodes.map(n=>[n.dataset.t,n.innerHTML]));let language='es';
 // Set these to the owner's verified booking links when provided.
@@ -115,16 +116,14 @@ function updatePackOffer(){
  const date=Object.fromEntries(parts.map(p=>[p.type,p.value]));
  const launch=[date.year,date.month,date.day].join('-')<='2027-01-06';
  document.querySelector('.pack-price').textContent=launch?'480':'540';
+ document.querySelector('[data-t="packOffer"]').hidden=!launch;
+ document.querySelector('[data-t="packPromo"]').hidden=!launch;
  document.querySelector('[data-t="packFuture"]').hidden=!launch;
- if(!launch){
-  document.querySelector('[data-t="packOffer"]').textContent=language==='en'?'Deeper Clarity':'Claridad en Profundidad';
-
- }
 }
 updatePackOffer();
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)updatePackOffer()});
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
-const bookingLabels={firstCta:{es:'Reserva tu Sesión',en:'Book your Session'},packCta:{es:'Reserva Claridad en Profundidad',en:'Book Deeper Clarity'},closingCta:{es:'Agendar mi Sesión de Claridad',en:'Schedule my Clarity Session'}};
+const bookingLabels={firstCta:{es:'Reserva tu Sesión',en:'Book your Session'},packCta:{es:'Reserva tus Sesiones de Profundización',en:'Book Deepening Sessions'},closingCta:{es:'Agendar mi Sesión de Claridad',en:'Schedule my Clarity Session'}};
 function configureBookingButtons(){
  document.querySelectorAll('.booking').forEach(button=>{
   const ready=Boolean(bookingLinks[button.dataset.session]);
